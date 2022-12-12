@@ -1,0 +1,118 @@
+
+<html>
+	<head> 
+		<title> Meet the Sign Artists</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Mono+One&family=Solway:wght@500&family=Ultra&display=swap" rel="stylesheet">
+	</head>
+	<meta charset="UTF-8">
+		<title>Javascript Image Slider</title>
+	<link rel= "stylesheet" type="text/css" href="styles.css"/>
+	<body>
+		<h1> Meet the Sign Artists</h1>
+		<h2>by Alexa Maldonado </h2>
+			<h3> I wanted to make something informative about something I am interested in. I work as one of the few sign artists at my nearby Trader Joe's in New York City and I have come to be fascinated by my work colleagues' process, so I have interviewed them and included some of their work to show the variety of styles. All of us are artists of our own, and I wanted to convey the personal touch that everyone has despite the guidelines we have. </h3>
+				<h4><a href="https://www.catusjoyco.com/">Sarah Joy Gatchalian</a></h4>
+		<p> Joy has worked as a sign artist at Trader Joe's for the longest period of time. Her vibrant signs always stand out to me when I see them in the store. Click her name for more of her work. Here is her intereview: </p>
+
+<!--Code for audio -->
+    <audio controls width="750">
+    <source src="nameofaudio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.    
+    </audio>
+
+
+    		
+
+
+
+
+				<h4> <a href="https://www.instagram.com/spicytunasignco/?hl=en">Noa Moskowitz </a></h4>
+		<p> Noa has worked as a sign artist for longer than me at Trader Joe's although she recently left the company. Her delicate lettering constantly catches my eye in the store. Click on her name to see more of her work. Here is her interview: </p>
+
+	<!--Code for audio -->
+    <audio controls width="750">
+    <source src="nameofaudio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.    
+    </audio>	
+
+<br>
+    <div class="container">
+<!--Area of the images-->
+   <div class="wrapper">
+      <img src="Image1NT.jpg">
+      <img src="Image2NT.jpg">
+      <img src="Image3NT.jpg">
+      <img src="Image4NT.jpg">
+      <img src="Image5NT.jpg">
+      <img src="Image6NT.jpg">
+      <img src="Image7NT.jpg">
+      <img src="Image8NT.jpg">
+      <img src="Image9NT.jpg">
+   </div>
+
+</div>
+
+
+<br>
+
+
+				<h4> <a href="https://www.instagram.com/bobymango/?hl=en">Alexa Maldonado</a> </h4>
+
+		<p> I am the newer member of the art team at work, and have been learning and my developing my signage style for a few months now. I'd like to think my signs stand out for being colorful and a little chaotic. Click on my name for a link to more of my work! Here is my interview: </p>
+
+
+		<!--Code for audio -->
+    <audio controls width="750">
+    <source src="nameofaudio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.    
+    </audio>
+
+<br>
+
+  <div class="container">
+<!--Area of the images-->
+   <div class="wrapper">
+      <img src="image1A.jpg">
+      <img src="image2A.jpg">
+      <img src="image3A.jpg">
+      <img src="image4A.jpg">
+      <img src="image5A.jpg">
+      <img src="image6A.png">
+      <img src="image7A.jpg">
+      <img src="image8A.jpg">
+   </div>
+
+</div>
+ <br>
+
+<script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "image1A.jpg"; 
+path[1] = "image2A.jpg"; 
+path[2] = "image3A.jpg"; 
+path[3] = "image4A.jpg";
+path[4] = "image5A.jpg";
+path[5] = "image6A.png";
+path[6] = "image7A.jpg";
+path[7] = "image8A.jpg";
+
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",4000); 
+} 
+window.onload=swapImage; 
+</script> 
+<img height="550" name="slide" src="image1A.jpg"  />
+
+
+
+
+
+	</body>
+	</html>
+
